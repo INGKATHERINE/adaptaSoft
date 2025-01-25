@@ -6,10 +6,9 @@
     
     <!-- Enlace a la hoja de estilo de Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   </head>
-  <body>
+  <body id="adaptasoft">
     <!-- rectangle-azul -->
     <div class="overlap">
       <div class="rectangle"></div>
@@ -17,7 +16,6 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-          <a class="navbar-brand" href="#" style="color: #ffffff;">AdaptaSoft S.A.S</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -42,7 +40,7 @@
         <div class="col-12 col-md-6">
             <div class="content">
               <div class="text">
-                <span class="titulo pt-5 animate__animated animate__bounceIn">Hola, Sabemos todo lo relacionado en aplicaciones web o hosting.</span>
+                <span class="titulo pt-5 animate__animated animate__bounceIn mt-4" style="color: #0046b5;">Hola, Sabemos todo lo relacionado en aplicaciones web o hosting.</span>
                 <p class="texto animate__animated animate__bounceIn">
                   Somos expertos en todo lo relacionado con aplicaciones web, desde el desarrollo hasta la
                   implementación. Además, te ofrecemos soluciones completas para el uso eficiente de dominios y
@@ -60,75 +58,76 @@
         </div>
         <!-- <div class="rectangle-2"></div> -->
         <div class="col-12 col-md-6">
-          <img class="animate__animated animate__fadeIn animate__delay-1s animate__duration-2s" src="img/rectangle-2.png" style="width: 100%;" />
+          <img class="animate__animated animate__fadeIn animate__delay-1s animate__duration-2s" src="img/logoAdaptasoft2025.png" style="width: 100%;" />
         </div>
       </div>
     </div>
     <div class="pt-4 reveal" id="servicios" style="background-color: #d9def4;">
       <div class="text-center">
-        <div class="text-wrapper-13">LOS SERVICIOS QUE OFREMOS</div>
-        <div class="row">
-          <div class="col-md-3 d-flex justify-content-around">
-            <div class="design animate__animated animate__heartBeat" data-bs-toggle="modal" data-bs-target="#myModal1">
-              <div class="fonts" >Mantenimiento <br />de computo</div>
-            </div>
-          </div>
-          <div class="col-md-3 d-flex justify-content-around">
-            <div class="overlap-wrapper">
-              <div class="design animate__animated animate__heartBeat" data-bs-toggle="modal" data-bs-target="#myModal1">
-                <div class="fonts">Aplicaciones <br />moviles</div>
+        <div class="container pb-5">
+          <h2 class="section-title">Servicios que ofrecemos</h2>
+          <div class="linea"></div>
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-4 d-flex justify-content-center mb-4">
+              <div class="overlap-wrapper">
+                <div class="design animate__animated animate__heartBeat" data-bs-toggle="modal" data-bs-target="#modalAplicaciones">
+                  <div class="fonts">Aplicaciones <br/>móviles</div>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-3 d-flex justify-content-around">
-            <div class="overlap-group-wrapper">
-              <div class="design animate__animated animate__heartBeat" data-bs-toggle="modal" data-bs-target="#myModal1">
-                <div class="fonts">Desarrollo&nbsp;&nbsp;de <br />software</div>
+            
+            <div class="col-12 col-md-4 d-flex justify-content-center mb-4">
+              <div class="overlap-group-wrapper">
+                <div class="design animate__animated animate__heartBeat" data-bs-toggle="modal" data-bs-target="#modalDesarrolloSoft">
+                  <div class="fonts">Desarrollo&nbsp;&nbsp;de <br />software</div>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-3 d-flex justify-content-around">
-            <div class="menu-de-servicio-2">
-              <div class="design animate__animated animate__heartBeat" data-bs-toggle="modal" data-bs-target="#myModal1">
-                <div class="fonts">
-                  Diseño y<br />
-                  desarrollo web
+            
+            <div class="col-12 col-md-4 d-flex justify-content-center mb-4">
+              <div class="menu-de-servicio-2">
+                <div class="design animate__animated animate__heartBeat" data-bs-toggle="modal" data-bs-target="#modalWeb">
+                  <div class="fonts">
+                    Diseño y<br />
+                    desarrollo web
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        
       </div>
     </div>    
-    <div class="container pt-5 reveal" id="nosotros">
-      <div class="frame">
-        <h4 style="font-weight: bold;">Nosotros</h4>
-        <p style="font-family: 'Poppins', 'Helvetica';font-size: 16px;">
-          Adaptasoft S.A.S es una empresa que pone toda la distribución tecnológica, para que sus clientes tengan lo
-          más innovador del mercado tecnológico, van encontrar un equipo más talentoso y con la mejor asesoría
-          empresarial para resolver tus necesidades.
-        </p>
-        <h4 style="text-align: center;font-weight: bold;">Descubre la Excelencia Digital con Nosotros</h4>
-        <p style="font-family: 'Poppins', 'Helvetica';font-size: 16px;">
-          Servicio de Hosting Veloz y Confiable<br />🔒 Dominios Seguros y Personalizados
-        </p>
+    <div class="row">
+      <div class="container py-5 px-5" id="nosotros">
+        <div class="px-5">
+          <h2 class="section-title">Nosotros</h2>
+          <div class="linea"></div>
+          <p style="text-align: left;">Adaptasoft S.A.S es una empresa que pone toda la distribución tecnológica, para que sus clientes tengan lo más innovador del mercado tecnológico, van encontrar un equipo más talentoso y con la mejor asesoría empresarial para resolver tus necesidades.</p>
+            <p style="text-align: left;">
+              Somos expertos en todo lo relacionado con aplicaciones web, desde el desarrollo hasta la implementación. Además, te ofrecemos soluciones completas para el uso eficiente de dominios y servicios de hosting con AdaptaSoft S.A.S.
+            </p>
+        </div>
       </div>
     </div>
-    <div class="container reveal" >
-      <div class="proyecto">
-        <h4 >Conoces nuestros mejores proyectos</h4>
-        <div class="container">
+    <div class="row" style="background-color: #d9def4;">
+      <div class="container  py-5 px-5" >
+        <h2 class="section-title">Nuestros mejores proyectos</h2>
+        <div class="linea"></div>
+        <div>
           <div id="slider" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="card">
-                  <img src="img/ellipse-2.png" class="card-img-top" alt="Imagen 1">
+                  <img src="img/ellipse-2.png" class="card-img-top mx-auto d-block mt-4" style="width: 150px;" alt="Imagen 1">
                   <div class="card-body">
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipiscing, elit inceptos fames ornare condimentum, fermentum eleifend in magna semper nisl, lobortis sollicitudin dictum vitae.</p>
                   </div>
                 </div>
               </div>
-              <div class="carousel-item">
+              
+              <!-- <div class="carousel-item">
                 <div class="card">
                   <img src="img/LogoControl.png" class="card-img-top" alt="Imagen 2">
                   <div class="card-body">
@@ -143,7 +142,7 @@
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipiscing, elit inceptos fames ornare condimentum, fermentum eleifend in magna semper nisl, lobortis sollicitudin dictum vitae.</p>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -157,7 +156,7 @@
         </div>
       </div>
     </div>
-    <div class="pt-5 d-flex justify-content-center reveal" style="background-color: #d9def4;" id="contacto">
+    <div class="pt-5 d-flex justify-content-center reveal" id="contacto">
       <div class="row">
         <div class="col-md-6">
           <h3>Trabajemos juntos.</h3>
@@ -168,7 +167,7 @@
             <div class="col-md-4 mb-3">
               <div class="overlap-group-2">
                 <div class="rectangle-4"></div>
-                <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/3188317719" target="_blank" rel="noopener noreferrer">
                   <img class="img-2" src="img/vector-2.svg" alt="WhatsApp">
                 </a>
               </div>
@@ -176,7 +175,7 @@
             <div class="col-md-4 mb-3">
               <div class="overlap-group-2">
                 <div class="rectangle-4"></div>
-                <a href="https://www.facebook.com/?locale=es_LA" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/profile.php?id=100083709787981" target="_blank" rel="noopener noreferrer">
                   <img class="img-2" src="img/vector-1.svg" alt="facebook">
                 </a>
               </div>
@@ -194,43 +193,31 @@
         <div class="col-md-6">
           <form id="contactForm">
             <div class="mb-3">
-              <label for="nombre" class="form-label">Escribe tu nombre</label>
+              <label for="nombre" class="form-label">Nombre</label>
               <input type="text" class="form-control" id="nombre" name="nombre" required>
             </div>
             <div class="mb-3">
-              <label for="email" class="form-label">Escribe tu Email</label>
-              <input type="email" class="form-control" id="email" name="email" required>
+              <label for="email" class="form-label">Correo</label>
+              <input type="email" class="form-control" id="correo" name="correo" required>
             </div>
             <div class="mb-3">
-              <label for="mensaje" class="form-label">Dejanos Tu mensaje</label>
+              <label for="email" class="form-label">Teléfono</label>
+              <input type="email" class="form-control" id="telefono" name="telefono" required>
+            </div>
+            <div class="mb-3">
+              <label for="mensaje" class="form-label">Mensaje</label>
               <textarea class="form-control" id="mensaje" name="mensaje" rows="1" required></textarea>
             </div>
-            <button style="border-radius: 15px;margin-top: 10px;" type="submit" class="btn btn-primary">Enviar</button>
+            <button style="border-radius: 15px;" type="submit" class="btn btn-primary my-5">Enviar</button>
           </form>
         </div>
       </div>
     </div>  
-    <footer class="py-4 bg-light ">
-      <div class="">
+    <footer class="py-4" style="background-color: #d9def4;">
+      <div class="row text-center">
         <div class="ms-5" style="font-family: 'Poppins', 'Helvetica';font-size: 16px;">
-          AdaptaSoft S.A.S es una empresa que pone <br />toda la distribución tecnológica, para sus clientes.
-        </div>
-        <div class="ms-5" style="font-family: 'Poppins', 'Helvetica';font-size: 16px;">
-          2024 ©AdaptaSoft. todos los derechos reservados
-        </div>
-      </div>
-      <div class="mb-3 d-flex flex-row-reverse pe-4 me-5">
-        <div class="group-9 me-3">
-          <a class="text-wrapper-20" href="https://www.facebook.com/?locale=es_LA">
-            <img src="img/vector.svg" alt="facebook" />
-            AdaptaSoft
-          </a>
-        </div>
-        <div class="group-10 me-3">
-          <a class="text-wrapper-20" href="https://www.instagram.com/">
-            <img  src="img/logo-instagram-1.svg" alt="instagram" />
-            AdaptaSoft
-          </a>
+          AdaptaSoft S.A.S es una empresa que ponetoda la distribución tecnológica, para sus clientes.
+          <br>2025 ©AdaptaSoft. todos los derechos reservados
         </div>
       </div>
     </footer>
@@ -241,40 +228,114 @@
       </a>
     </div>
     <!-- Modal -->
-    <div class="modal fade" id="myModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="modalAplicaciones" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Mantenimiento de computo</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Aplicaciones Móviles</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="modal-body collage-container">
-            <div class="collage-item">
-              <img src="img/desarrolloWeb.png" class="img-fluid" alt="Imagen 1">
+          <div class="modal-body container">
+            <div class="row my-4">
+              <p>Creamos aplicaciones móviles innovadoras y centradas en el usuario que ayudan a llevar tu negocio al siguiente nivel. Desde aplicaciones nativas hasta híbridas, nuestro equipo de desarrollo trabaja estrechamente contigo para entender tus objetivos y transformar tus ideas en aplicaciones móviles de alta calidad que cautiven a tus usuarios y generen resultados tangibles.</p>
             </div>
-            <div class="collage-item">
-              <img src="img/desarrolloWeb.png" class="img-fluid" alt="Imagen 2">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-3 text-center mb-4">
+                <div class="collage-item" style="width: 150px;">
+                  <img src="img/androidStudio.png" class="img-fluid" alt="Android Studio">
+                </div>
+              </div>
+              <div class="col-12 col-md-3 text-center mb-4">
+                <div class="collage-item" style="width: 150px;">
+                  <img src="img/xamarin.svg" class="img-fluid" alt="Xamarin">
+                </div>
+              </div>
+              <div class="col-12 col-md-3 text-center mb-4">
+                <div class="collage-item" style="width: 150px;">
+                  <img src="img/flutter.png" class="img-fluid" alt="Flutter">
+                </div>
+              </div>
+              <div class="col-12 col-md-3 text-center mb-4">
+                <div class="collage-item" style="width: 150px;">
+                  <img src="img/React.webp" class="img-fluid" alt="React Native">
+                </div>
+              </div>
             </div>
-            <div class="collage-item">
-              <img src="img/desarrolloWeb.png" class="img-fluid" alt="Imagen 2">
-            </div>
-            <div class="collage-item">
-              <img src="img/desarrolloWeb.png" class="img-fluid" alt="Imagen 2">
-            </div>
-            <div class="collage-item">
-              <img src="img/desarrolloWeb.png" class="img-fluid" alt="Imagen 2">
-            </div>
-            <!-- Agrega más collage-item si tienes más imágenes -->
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
           </div>
         </div>
       </div>
     </div>    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <div class="modal fade" id="modalDesarrolloSoft" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Desarrollo de software</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body container">
+            <div class="row my-4">
+              <p>
+                Desarrollamos software personalizado para satisfacer las necesidades específicas de tu negocio. Ya sea un sistema de gestión empresarial, una aplicación de comercio electrónico o una solución de automatización de procesos, nuestro equipo de desarrolladores utiliza las últimas tecnologías y metodologías para crear software robusto, escalable y fácil de usar que impulse el crecimiento y la eficiencia de tu empresa.
+              </p>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-3 text-center mb-4">
+                <div class="collage-item" style="width: 150px;">
+                  <img src="img/aws.png" class="img-fluid" alt="Android Studio">
+                </div>
+              </div>
+              <div class="col-12 col-md-3 text-center mb-4">
+                <div class="collage-item" style="width: 150px;">
+                  <img src="img/cloudflare.png" class="img-fluid" alt="React Native">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+    <div class="modal fade" id="modalWeb" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Diseño y desarrollo web</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body container">
+            <div class="row my-4">
+              <p>
+                Diseñamos y desarrollamos sitios web a medida que reflejan la identidad y visión de tu marca. Desde la planificación inicial hasta el lanzamiento, nuestro equipo se enfoca en crear una experiencia de usuario excepcional, combinando diseño creativo con funcionalidades sólidas para garantizar que tu presencia en línea sea impactante y efectiva.
+              </p>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-3 text-center mb-4">
+                <div class="collage-item" style="width: 150px;">
+                  <img src="img/laravel.png" class="img-fluid" alt="Android Studio">
+                </div>
+              </div>
+              <div class="col-12 col-md-3 text-center mb-4">
+                <div class="collage-item" style="width: 150px;">
+                  <img src="img/vue.png" class="img-fluid" alt="Xamarin">
+                </div>
+              </div>
+              <div class="col-12 col-md-3 text-center mb-4">
+                <div class="collage-item" style="width: 150px;">
+                  <img src="img/mysql.jpg" class="img-fluid" alt="Flutter">
+                </div>
+              </div>
+              <div class="col-12 col-md-3 text-center mb-4">
+                <div class="collage-item" style="width: 150px;">
+                  <img src="img/angular.png" class="img-fluid" alt="React Native">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
   </body>
 </html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>  
 <style>
 .overlap {
   position: absolute;
@@ -476,8 +537,8 @@
 }
 .rectangle-4 {
   position: absolute;
-  width: 36px;
-  height: 35px;
+  width: 56px;
+  height: 55px;
   top: 8px;
   left: 7px;
   background-color: #003698;
@@ -486,8 +547,8 @@
 }
 .img-2 {
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
   top: 15px;
   left: 15px;
 }
@@ -566,6 +627,28 @@
   width: 30px;
   height: 30px;
 }
+.textoCuerpo{
+  font-family: 'Poppins', 'Helvetica';
+  font-size: 16px;
+}
+.section-title {
+  color: #0046b5;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.linea {
+  content: "";
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #0046b566;
+  left: 50%; /* Coloca el lado izquierdo del pseudoelemento en el centro horizontal */
+  transform: translateX(-50%);
+  width: 30%;
+  margin-bottom: 40px;
+}
+
 </style>
 <script>
   window.addEventListener('scroll',reveal);
@@ -584,4 +667,10 @@
       }
     }
   }
+
+
+</script>
+
+<script>
+
 </script>
